@@ -13,9 +13,10 @@ import { userReducer } from './reducer/user.reducer';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
 import { environment } from 'src/environments/environment.prod';
+import { ListUsersComponent } from './components/list-users/list-users.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ListUsersComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
